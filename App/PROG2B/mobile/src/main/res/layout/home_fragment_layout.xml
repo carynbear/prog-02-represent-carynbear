@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.HomeFragment">
+
+
+    <!--line-->
+    <FrameLayout
+        android:id="@+id/location_line"
+        android:layout_marginTop="50dp"
+        android:layout_width="1dp"
+        android:layout_height="75dp"
+        android:background="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+    </FrameLayout>
+    <!--or text-->
+    <TextView
+        android:id="@+id/or_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/location_line"/>
+    <!--rest of line-->
+    <FrameLayout
+        android:id="@+id/location_line2"
+        android:layout_marginTop="0dp"
+        android:layout_width="1dp"
+        android:layout_height="75dp"
+        android:background="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/or_line">
+    </FrameLayout>
+    <!--button-->
+    <ImageButton
+        android:id="@+id/location_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/location_line2"
+        android:clickable="true"
+        />
+    <!--background-->
+    <TextView
+        android:id="@+id/home_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="50sp"
+        android:textAlignment="textEnd"
+        android:text="Oh, say can \n you see \n by the Dawn's \n early Light "
+        android:textColor="#20000000"
+        android:layout_marginBottom="15dp"/>
+
+</RelativeLayout>
