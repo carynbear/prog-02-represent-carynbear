@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MURICA</string>
+    <string name="title_activity_representatives">Representatives</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="service_not_available">No geocoder available. </string>
+    <string name="invalid_lat_long_used">Invalid latitude and longitude input. </string>
+    <string name="no_address_found">Sorry, no address was found. </string>
+    <string name="address_found">Address successfully found. </string>
+    <string name="no_location_info">No location data provided. </string>
+    <string name="no_geocoder_available">No geocode is available</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"> -_- You broke the app. </string>
+</resources>
